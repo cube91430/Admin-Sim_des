@@ -1,0 +1,121 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>
+        Wakanda - Desa
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/5aa92e510b.js"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <!---Logo Kampung-->
+            <a href="index.html"><img src="Foto/logo.png" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <!--Home Page-->
+                    <li><a href="Desa.html">Desa</a></li>
+                    <li><a href="Pemerintahan.html">Pemerintahan</a></li>
+                    <li><a href="Data.html">Data</a></li>
+                    <li><a href="Layanan.html">Layanan</a></li>
+                    <li><a href="Blog.html">Produk Hukum</a></li>
+                    <li><a href="Galeri_Foto.html">Galeri</a></li>
+                    <li><a href="admin.html">Admin</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>
+            Produk Hukum
+        </h1>
+     
+
+    </section>
+
+    <!--------- Blog -------->
+    
+    <section class="blog">
+
+            <div class="blog-right">
+                <h3>
+                    Produk Hukum
+                </h3>
+                <div>
+                    <span>
+                        PERDES
+                    </span>
+                    <span>
+                        PERDES NO.6 TAHUN 2019
+                    </span>
+                    <span>Laporan Anggaran <br />Tahun 2019</span>
+                </div>
+                <div>
+                    <span>
+                        PERKADES
+                    </span>
+                    <span>
+                        Peraturan Kepala Desa <br />Nomor 3 Tahun 2019
+                    </span>
+                    <span>Peraturan Kepala Desa <br />Tentang Pejabaran APBdes <br />Tahun Anggaran 2020</span>
+                </div>
+                <div>
+                    <span>
+                        PERDES
+                    </span>
+                    <span>
+                        PERDES NO.5 TAHUN 2019
+                    </span>
+                    <span>Tentang APBDS <br /> Tahun Anggaran <br />2020</span>
+                </div>
+                <div>
+                    <span>
+                        PERDES
+                    </span>
+                    <span>PERDES APBDes Perubahan</span>
+                    <span>Tentang Perubahan <br /> Anggaran Pendapatan <br />dan Belanja Desa <br /> Tahun Anggaran 2019</span>
+                </div>
+                
+            </div>
+        
+    </section>
+   
+    <!----- Footer -->
+
+    <section class="footer">
+        <h4> Desa Paparazzi </h4>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+        <p> Made by Yudhistira Ranggawidjaya</p>
+    </section>
+
+
+    <!------JavaScript for Toggle Menu------->
+
+    <script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+    </script>
+
+
+</body>
+</html>

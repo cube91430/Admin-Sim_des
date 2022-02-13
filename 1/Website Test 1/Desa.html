@@ -1,0 +1,125 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>
+        Wakanda - Desa
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/5aa92e510b.js"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <!---Logo Kampung-->
+            <a href="index.html"><img src="Foto/logo.png" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <!--Home Page-->
+                    <li><a href="Desa.html">Desa</a></li>
+                    <li><a href="Pemerintahan.html">Pemerintahan</a></li>
+                    <li><a href="Data.html">Data</a></li>
+                    <li><a href="Layanan.html">Layanan</a></li>
+                    <li><a href="Blog.html">Produk Hukum</a></li>
+                    <li><a href="Galeri_Foto.html">Galeri</a></li>
+                    <li><a href="#">Admin</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>
+            Kampung
+        </h1>
+     
+
+    </section>
+
+    <!--------- About us Content -------->
+    
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>
+                    Sejarah
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div class="about-col">
+                <img src="Foto/Desa.jpg" />
+            </div>
+        </div>
+    </section>
+
+    <section class="geografis">
+        <div class="row">
+            <div class="geografis-col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63157.33656066876!2d140.32238784112627!3d-8.368813958945836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x69b5380e15aef7df%3A0xf78f72ac150fd3b5!2sMuram%20Sari%2C%20Semangga%2C%20Merauke%20Regency%2C%20Papua!5e0!3m2!1sen!2sid!4v1638283706470!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="geografis-col">
+                <h1>
+                    Geografis
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!----- Footer -->
+
+    <section class="footer">
+        <h4> Desa Paparazzi </h4>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+        <p> Made by Yudhistira Ranggawidjaya</p>
+    </section>
+
+
+    <!------JavaScript for Toggle Menu------->
+
+    <script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+    </script>
+
+
+</body>
+</html>
