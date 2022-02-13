@@ -1,0 +1,182 @@
+*{
+    padding: center;
+    background-color: #f6f6f9;
+}
+
+.back{
+    display: flex;
+    font-size: 7px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 0;
+}
+
+.back span{
+    color: #242424;
+}
+
+.back a{
+    text-decoration: none;
+}
+
+.back a h1{
+    color: #242424;
+    font-family: 'Comfortaa', sans-serif;
+    line-height: 5px;
+    padding-left: 10px;
+}
+
+.container{
+    align-items: center;
+}
+
+.container img{
+    height: 20px;
+}
+.container h1{
+    display: flex;
+    font-size: 4rem;
+    justify-content: center;
+    font-family: 'Comfortaa', sans-serif;
+    padding: center;
+}
+
+.container .option{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.container .option .optional{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50px;
+    font-family: 'Comfortaa', sans-serif;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+    margin-right: 30px;
+    transition: all 300ms ease;
+}
+
+.container .option .optional:hover{
+    box-shadow: none;
+}
+
+.container .option .search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.container .option .search-box{
+    transform: translateX(-50%, -50%);
+    background: #fff;
+    height: 20px;
+    border-radius: 40px;
+    margin-left: 2%;
+    padding: 10px;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+}
+
+.container .option .search-btn {
+    color: #242424;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.container .option .search-btn span{
+    background-color: #fff;
+}
+
+.container .option .search-box .search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 20px;
+    width: 0px;
+}
+
+.container .data-kependudukan .primary{
+    color: orange;
+}
+
+.container .data-kependudukan .approve{
+    color: #00f56a;
+}
+
+.container .data-kependudukan .disapprove{
+    color: #f54e00;
+}
+
+
+.container .data-kependudukan{
+    font-family: 'Comfortaa', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container .data-kependudukan thead tr th{
+    color: black;
+    background-color: #fff;
+    padding-bottom: 20px;
+    font-size: 120%;
+    font-weight: 1000;
+}
+
+.container .data-kependudukan tbody a{
+    text-decoration: none;
+    color: orange;
+    background-color: #fff;
+}
+
+
+.container .data-kependudukan tbody a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.container .data-kependudukan table{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 75%;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10%;
+    border-spacing: 10px;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+}
+
+
+/* fix the border-bottom */
+table tbody td{
+    height: 2.8rem;
+    /* border-bottom: 1px solid lightblue; */
+    color: #242424;
+    background-color: #fff;
+    font-size: 1rem;
+}
+
+.container table tbody tr:last-child td{
+    border: none;
+}
+
+.container  .data-kependudukan a:hover{
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    color: var(--color-dark);
+    font-size: 1rem;
+}
