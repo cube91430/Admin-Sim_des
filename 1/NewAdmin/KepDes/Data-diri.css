@@ -1,0 +1,107 @@
+*{
+    background-color: #f6f6f9;
+    padding: center;
+}
+
+.upper{
+    display: flex;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 0;
+}
+
+.upper .return{
+    display: flex;
+}
+
+.upper .return a{
+    text-decoration: none;
+}
+
+.upper .return a h2{
+    color: #242424;
+    font-family: 'Comfortaa', sans-serif;
+    line-height: 1px;
+    padding-left: 10px;
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 4rem;
+}
+
+.container h1{
+    font-size: 4.5rem;
+}
+
+.container{
+    align-items: center;
+}
+
+.container .data-diri{
+    display: flex;
+    justify-content: center;
+}
+
+.container .data-diri .column{
+    padding: 25px;
+    width: 50rem;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+    margin-bottom: 10%;
+}
+
+.container .data-diri .column .row1{
+    background: none;
+    float: left;
+    display: flex;
+}
+
+.data-diri .column .row1 .left{
+    padding: 10%;
+    padding-left: 12%;
+    background: none;
+    width:  20rem;
+}
+
+.data-diri .column .up{
+    background: none;
+    font-family: 'Comfortaa',sans-serif;
+    font-size: 0.8rem;
+    padding-bottom: 5px;
+}
+
+.data-diri .column .down{
+    background: none;
+    font-family: 'Jost', sans-serif;
+}
+
+.container .data-diri .column .row1 h3{
+    background: none;
+}
+
+.container .data-diri .column .row2{
+    background: none;
+    float: right;
+}
+
+.container .data-diri .column .row2 h2{
+    background: none;
+}
+
+.container .data-diri .column .row2 .right{
+    padding: 10%;
+    background: none;
+}
+
+
+.container .data-diri .column .row2 .right img{
+    background: none;
+    padding-top: 3rem;
+    padding-right: 7rem;
+    height: 10rem;
+}
