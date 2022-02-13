@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimDes - Penduduk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="warga.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src='./image/logo1.png' alt=''/>
+                    <h2 class="text-muted"> Sim<span class='danger'>Des</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-outlined">
+                        close
+                        </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-outlined">account_circle</span>
+                    <h3>Akun</h3>
+                </a>
+                <a href="./Data-diri.html">
+                    <span class="material-icons-outlined">contact_mail</span>
+                    <h3>Data Diri</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-outlined">local_post_office</span>
+                    <h3>Surat</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-outlined">description</span>
+                    <h3>Riwayat Surat</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-outlined">settings</span>
+                    <h3>Settings</h3>
+                </a>
+                <img src="./Image/sidebar2.svg"/>
+                <a href="login.html">
+                    <span class="material-icons-outlined">logout</span>
+                    <h3>Log out</h3>
+                </a>
+                
+            </div>
+        </aside>
+
+        <!---------------------- End Side ---------------------------->
+        <main>
+            <h1>Dashboard 
+                <b>Penduduk</b>
+            </h1>
+            <!-------------- INSIGHTS ------------------->
+            
+                    <div class="data-kependudukan">
+                        <img src="./Image/background.jpg"/>
+                    </div>
+                    <!------------------------- Insigts ------------------------------>
+                    <div class="insights">
+                        <div class="Penduduk">
+                            <div class="middle">
+                                <div  class="lef">
+                                    <h3>Total Penduduk</h3>
+                                    <h1>25.456 Penduduk</h1>
+                                </div>
+                                <div class="progress">
+                                    <img src="./Image/penduduk.svg" alt=""/>
+                                </div>
+                            </div>
+                            <small class="text-muted">WMD</small>
+                        </div>
+                        <!----------------- Peringkat Desa ----------------->
+                        <div class="desa">
+                            <div class="middle">
+                                <div  class="lef">
+                                    <h3>Total Proposal</h3>
+                                    <h1>3 Proposal</h1>
+                                </div>
+                                <div class="progress">
+                                    <img src="./Image/keluarga.svg" alt=""/>
+                                </div>
+                            </div>
+                            <small class="text-muted">WMD</small>
+                        </div>
+                        <!----------------- Peringkat Penduduk ----------------->
+                        <div class="pekerjaan">
+                            
+                            <div class="middle">
+                                <div  class="lef">
+                                    <h3>Proposal yang Disetujui</h3>
+                                    <h1>1</h1>
+                                </div>
+                                <div class="progress">
+                                    <img src="./Image/surat.svg" alt="" />
+                                </div>
+                            </div>
+                            <small class="text-muted">WMD</small>
+                        </div>
+                        <!----------------- Peringkat Pekerjaan ----------------->
+                    </div>
+                
+        </main>
+        <!----------------------------- END OF MAIN ------------------------------>
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-outlined">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-icons-outlined">light_mode</span>
+                    <span class="material-icons-outlined">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Halo, <b>Ted</b></p>
+                        <small class="text-muted">RT</small>
+                    </div>
+                </div>
+            </div>
+            <!--------------------- END of TOP ---------------------->
+            <div class="recent-updates">
+                <div class="update-count">
+                    <span class="material-icons-outlined" id="btn">
+                        menu
+                        </span>
+                    <h2>Recent Updates</h2>
+                    <div class="notif">
+                        <span class="material-icons-outlined">
+                            notifications
+                        </span>
+                    </div>
+
+                </div>
+                <div class="overlay" id="overlay">
+                        <div class="data-contain">
+                            <div class="updates">
+                                <div class="update">
+                                    <div class="profile-photo">
+                                        <span class="material-icons-outlined">
+                                            thumb_up
+                                            </span>
+                                    </div>
+                                    <div class="message">
+                                        <p><b>Surat Keteranngan Domisili</b> Surat anda sudah di setujui.</p>
+                                        <small class="text-muted">10 Menit yang Lalu</small>
+                                    </div>
+                                </div>
+                                <div class="update">
+                                    <div class="profile-photo">
+                                        <span class="material-icons-outlined">
+                                            note_alt
+                                            </span>
+                                    </div>
+                                    <div class="message">
+                                        <p><b>Proposal Acara</b>Proposal anda sedang diproses.</p>
+                                        <small class="text-muted">25 Menit yang Lalu</small>
+                                    </div>
+                                </div>
+                                <div class="update">
+                                    <div class="profile-photo">
+                                        <span class="material-icons-outlined">
+                                            note_alt
+                                            </span>
+                                    </div>
+                                    <div class="message">
+                                        <p><b>Proposal PBB</b>Proposal anda sedang di proses.</p>
+                                        <small class="text-muted">2 Jam yang Lalu</small>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    
+                    <!----------------------------- END OF RECENT UPDATES ------------------------------->
+                            <!--<div class="data-analytics">
+                                <h2>Data Pekembangan Desa</h2>
+                                <div class="data-anal">
+                                    <div class="icon">
+                                        <span class="material-icons-outlined">school</span>
+                                    </div>
+                                    <div class="right">
+                                        <div class="info">
+                                            <h3>Pendidikan</h3>
+                                            <small class="text-muted"></small>
+                                        </div>
+                                        <h5 class="success">+39%</h5>
+                                        <h3>3849</h3>
+                                    </div>
+                                </div>
+                                <div class="data-anal">
+                                    <div class="icon">
+                                        <span class="material-icons-outlined">manage_accounts</span>
+                                    </div>
+                                    <div class="right">
+                                        <div class="info">
+                                            <h3>SDM</h3>
+                                            <small class="text-muted"></small>
+                                        </div>
+                                        <h5 class="success">+39%</h5>
+                                        <h3>3849</h3>
+                                    </div>
+                                </div>
+                                <div class="data-anal">
+                                    <div class="icon">
+                                        <span class="material-icons-outlined">park</span>
+                                    </div>
+                                    <div class="right">
+                                        <div class="info">
+                                            <h3>SDA</h3>
+                                            <small class="text-muted"></small>
+                                        </div>
+                                        <h5 class="success">+39%</h5>
+                                        <h3>3849</h3>
+                                    </div>
+                                </div>
+                                <div class="add-anal">
+                                    <div>
+                                        <span class="material-icons-outlined">add</span>
+                                        <h3>Tambahkan Data</h3>
+                                    </div>
+                                </div>
+                            </div>--->
+                        </div>
+                </div>
+            </div>        
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+    <script>
+        let btn = document.querySelector("#btn")
+        let updates = document.querySelector(".data-contain")
+
+         btn.onclick = function(){
+            updates.classList.toggle("active");
+         } 
+    </script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimDes - RT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="Admin2.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src='./image/logo1.png' alt=''/>
+                    <h2 class="text-muted"> Sim<span class='danger'>Des</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-outlined">
+                        close
+                        </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-outlined">account_circle</span>
+                    <h3>Akun</h3>
+                </a>
+                <a href="Form.html">
+                    <span class="material-icons-outlined">contact_mail</span>
+                    <h3>Pendataan Penduduk</h3>
+                </a>
+                <a href="DataPendududuk.html">
+                    <span class="material-icons-outlined">view_list</span>
+                    <h3>Data Kependudukan</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-outlined">local_post_office</span>
+                    <h3>Permohonan</h3>
+                    <span class="message-count">30</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-outlined">leaderboard</span>
+                    <h3>Analitik</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-outlined">settings</span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="login.html">
+                    <span class="material-icons-outlined">logout</span>
+                    <h3>Log out</h3>
+                </a>
+                
+            </div>
+        </aside>
+
+        <!---------------------- End Side ---------------------------->
+        <main>
+            <h1>Dashboard 
+                <b class="">Kepala Desa Kecepetan</b>
+            </h1>
+            
+            <!--------------- DATE ------------------>
+            <div class="date">
+                <input type="date">
+            </div>
+
+
+            <div class="insights">
+                <div class="Penduduk">
+                    <span class="material-icons-outlined">groups</span>
+                    <div class="middle">
+                        <div  class="lef">
+                            <h3>Total Penduduk</h3>
+                            <h1>25.456 Penduduk</h1>
+                        </div>
+                        <div class="progress">
+                            <img src="./Image/penduduk.svg" alt=""/>
+                        </div>
+                    </div>
+                    <small class="text-muted">WMD</small>
+                </div>
+                <!----------------- Peringkat Desa ----------------->
+                <div class="desa">
+                    <span class="material-icons-outlined">equalizer</span>
+                    <div class="middle">
+                        <div  class="lef">
+                            <h3>RT</h3>
+                            <h1>30</h1>
+                        </div>
+                        <div class="progress">
+                            <img src="./Image/keluarga.svg" alt=""/>
+                        </div>
+                    </div>
+                    <small class="text-muted">WMD</small>
+                </div>
+                <!----------------- Peringkat Penduduk ----------------->
+                <div class="pekerjaan">
+                    <span class="material-icons-outlined">work</span>
+                    <div class="middle">
+                        <div  class="lef">
+                            <h3>RW</h3>
+                            <h1>12</h1>
+                        </div>
+                        <div class="progress">
+                            <img src="./Image/surat.svg" alt="" />
+                        </div>
+                    </div>
+                    <small class="text-muted">WMD</small>
+                </div>
+                <!----------------- Peringkat Pekerjaan ----------------->
+            </div>
+            <!-------------- INSIGHTS ------------------->
+            <div class="data-kependudukan">
+                <h2>Data Kependudukan</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <a href=""><th>Nama</th></a>
+                            <th>Jenis Kelamin</th>
+                            <th>Status</th>
+                            <th>Pekerjaan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ted Mosby</td>
+                            <td>Pria</td>
+                            <td>Menikah</td>
+                            <td class="warning">Arsitek</td>
+                            <td class="primary">Detail</td>
+                        </tr>
+                        <tr>
+                            <td>Robin Scherbatsky</td>
+                            <td>Wanita</td>
+                            <td>Menikah</td>
+                            <td class="warning">Reporter</td>
+                            <td class="primary">Detail</td>
+                        </tr>
+                        <tr>
+                            <td>Marshall Eriksen</td>
+                            <td>Pria</td>
+                            <td>Menikah</td>
+                            <td class="warning">Jaksa</td>
+                            <td class="primary">Detail</td>
+                        </tr>
+                        <tr>
+                            <td>Dodit Mulyatno</td>
+                            <td>Pria</td>
+                            <td>Belum Menikah</td>
+                            <td class="warning">Komedian</td>
+                            <td class="primary">Detail</td>
+                        </tr>
+                        <tr>
+                            <td>Lily Aldrin</td>
+                            <td>Wanita</td>
+                            <td>Menikah</td>
+                            <td class="warning">Pelukis</td>
+                            <td class="primary">Detail</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+        </main>
+        <!----------------------------- END OF MAIN ------------------------------>
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-outlined">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-icons-outlined">light_mode</span>
+                    <span class="material-icons-outlined">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Halo, <b>Joey</b></p>
+                        <small class="text-muted">RT</small>
+                    </div>
+                    <div class="profile-photo">
+                        <a href="#"><img src="./Image/profile.jpg" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+            <!--------------------- END of TOP ---------------------->
+            <div class="recent-updates">
+                <div class="update-count">
+                    <span class="material-icons-outlined">
+                        menu
+                        </span>
+                    <h2>Recent Updates</h2>
+                    <div class="notif">
+                        <span class="material-icons-outlined" >
+                            notifications
+                        </span>
+                    </div>
+
+                </div>
+                <div class="overlay" id="overlay">
+                    <div class="rightbox">
+                        <p><b>Joey Tribianni</b> Meminta surat untuk penggantian Kartu Kelurga.</p>
+                    </div>
+                    <div class="rightbox">
+                        <p><b>Joey Tribianni</b> Meminta surat untuk penggantian Kartu Kelurga.</p>
+                    </div>
+                    <div class="rightbox">
+                        <img src="./Image/sidebar2.svg"/>
+                        <p><b>Joey Tribianni</b> Meminta surat untuk penggantian Kartu Kelurga.</p>
+                    </div>
+                        <div class="data-contain">
+                            <div class="updates">
+                                <div class="update">
+                                    <div class="profile-photo">
+                                        <img src="./Image/profile2.jpg" alt=""/>
+                                    </div>
+                                    <div class="message">
+                                        <p><b>Joey Tribianni</b> Meminta surat untuk penggantian Kartu Kelurga.</p>
+                                        <small class="text-muted">10 Menit yang Lalu</small>
+                                    </div>
+                                </div>
+                                <div class="update">
+                                    <div class="profile-photo">
+                                        <img src="./Image/profile4.jpg" alt=""/>
+                                    </div>
+                                    <div class="message">
+                                        <p><b>Rachel Greene</b> Meminta penggantian data pada profile.</p>
+                                        <small class="text-muted">25 Menit yang Lalu</small>
+                                    </div>
+                                </div>
+                                <div class="update">
+                                    <div class="profile-photo">
+                                        <img src="./Image/profile3.jpg" alt=""/>
+                                    </div>
+                                    <div class="message">
+                                        <p><b>Monica Geller</b> Meminta surat untuk penggantian Kartu Kelurga.</p>
+                                        <small class="text-muted">2 Jam yang Lalu</small>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    
+                    <!----------------------------- END OF RECENT UPDATES ------------------------------->
+                            <div class="data-analytics">
+                                <h2>Data Pekembangan Desa</h2>
+                                <div class="data-anal">
+                                    <div class="icon">
+                                        <span class="material-icons-outlined">school</span>
+                                    </div>
+                                    <div class="right">
+                                        <div class="info">
+                                            <h3>Pendidikan</h3>
+                                            <small class="text-muted"></small>
+                                        </div>
+                                        <h5 class="success">+39%</h5>
+                                        <h3>3849</h3>
+                                    </div>
+                                </div>
+                                <div class="data-anal">
+                                    <div class="icon">
+                                        <span class="material-icons-outlined">manage_accounts</span>
+                                    </div>
+                                    <div class="right">
+                                        <div class="info">
+                                            <h3>SDM</h3>
+                                            <small class="text-muted"></small>
+                                        </div>
+                                        <h5 class="success">+39%</h5>
+                                        <h3>3849</h3>
+                                    </div>
+                                </div>
+                                <div class="data-anal">
+                                    <div class="icon">
+                                        <span class="material-icons-outlined">park</span>
+                                    </div>
+                                    <div class="right">
+                                        <div class="info">
+                                            <h3>SDA</h3>
+                                            <small class="text-muted"></small>
+                                        </div>
+                                        <h5 class="success">+39%</h5>
+                                        <h3>3849</h3>
+                                    </div>
+                                </div>
+                                <div class="add-anal">
+                                    <div>
+                                        <span class="material-icons-outlined">add</span>
+                                        <h3>Tambahkan Data</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </div>
+
+    
+</body>
+    <script src="./index.js"></script>
+    <script src="./update.js"></script>
+    </script>
+</html>

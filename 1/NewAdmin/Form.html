@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SimDes - Form Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Rounded">
+        <link rel="stylesheet" href="Form.css">
+    </head>
+    <body>
+        <div class="container">
+            <a href="Admin.html"><img src="./Image/logo1.png"></a>
+            <div class="row">
+            <form id="form1">
+                <h3>Data Kependudukan</h3>
+                <h2>Data Personal</h2>
+                <input type="text" placeholder="Nama" required>
+                <input type="date" placeholder="tgl. lahir" required>
+                <select type="text" required>
+                        <option class="option" value="" disabled selected hidden>Jenis Kelamin</option>
+                        <option class="option" value="pria">Pria</option>
+                        <option class="option" value="wanita">Wanita</option>
+                </select>
+                    <select type="text" required>
+                        <option value="" disabled selected hidden>Status</option>
+                        <option value="menikah">Menikah</option>
+                        <option value="belum-menikah">Belum Menikah</option>
+                    </select>
+                    <select type="text" required>
+                        <option class="option" value="" disabled selected hidden>Agama</option>
+                        <option class="option" value="islam">Islam</option>
+                        <option class="option" value="katholik">Katholik</option>
+                        <option class="option" value="kristen">Kristen</option>
+                        <option class="option" value="buddha">Buddha</option>
+                        <option class="option" value="hindu">Hindu</option>
+                        <option class="option" value="kong-hu-chu">Kong Hu Chu</option>
+                    </select>
+                    <input type="email" placeholder="email">
+                    <input type="text" placeholder="no. HP">
+                    <input type="text" placeholder="NIK">
+
+                <div class="btn">
+                    <button type="button" id="Selan1">Selanjutnya</button>
+                </div>
+            </form>
+
+            <form id="form2">
+                    <h3>Data Kependudukan</h3>
+                    <h2>Data Keluarga</h2>
+                    <input type="text" placeholder="Pendidikan Terakhir" required>
+                    <input type="text" placeholder="Pendidikan Sekarang" required>
+                    <input type="text" placeholder="Nama Ayah">
+                    <input type="text" placeholder="Nama Ibu">
+                    <input type="text" placeholder="No. KK">
+
+                    <div class="btn">
+                        <button type="button" id="Kembal1">Kembali</button>
+                        <button type="button" id="Selan2">Selanjutnya</button>
+                    </div>
+            </form> 
+
+                <form id="form3">
+                    <h3>Data Kependudukan</h3>
+                    <h2>Pekerjaan</h2>
+                    <input type="text" placeholder="Utama" required>
+                    <input type="text" placeholder="Sampingan" required>
+                    <input type="text" placeholder="Keahlian">
+                    <h4>Lokasi</h4>
+                    <input type="text" placeholder="RT" required>
+                    <input type="text" placeholder="RW" required>
+                    <input type="text" placeholder="Nama Desa" required>
+
+                    <div class="btn">
+                        <button type="button" id="Kembal2">Kembali</button>
+                        <button type="submit">Konfirmasi</button>
+                    </div>
+                    
+                </form>
+                <div class="step-row">
+                    <div id="progress"></div>
+                    <div class="step-col"><small>Personal</small></div>
+                    <div class="step-col"><small>Keluarga</small></div>
+                    <div class="step-col"><small>Pekerjaan</small></div>
+                </div>
+            </div>
+        </div>
+    <script>
+
+        var form1 = document.getElementById("form1");
+        var form2 = document.getElementById("form2");
+        var form3 = document.getElementById("form3");
+
+        var Selan1 = document.getElementById("Selan1");
+        var Selan2 = document.getElementById("Selan2");
+        var Back1 = document.getElementById("Kembal1");
+        var Back2 = document.getElementById("Kembal2");
+
+        var progress = document.getElementById("progress");
+
+        Selan1.onclick = function(){
+            form1.style.left = "-450px";
+            form2.style.left = "40px";
+            progress.style.width ='240px';
+        }   
+
+        Back1.onclick = function(){
+            form1.style.left = "40px";
+            form2.style.left = "450px";
+            progress.style.width ='120px';
+        }   
+
+        Selan2.onclick = function(){
+            form2.style.left = "-450px";
+            form3.style.left = "40px";
+            progress.style.width ='350px';
+        }  
+        
+        Back2.onclick = function(){
+            form2.style.left = "40px";
+            form3.style.left = "450px";
+            progress.style.width ='240px';
+        }  
+
+
+    </script>
+    </body>
+</html>
